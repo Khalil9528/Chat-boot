@@ -30,7 +30,7 @@ def play_audio(audio_path):
         # Lecture sur le périphérique virtuel spécifié
         sd.play(data, samplerate, device="CABLE Input (VB-Audio Virtual Cable)")
         sd.wait()  
-        print("🎵 Audio terminé.")
+        print("Audio terminé.")
 
         # Nettoyage du fichier temporaire
         if os.path.exists(temp_audio_file):
