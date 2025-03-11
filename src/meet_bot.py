@@ -135,5 +135,6 @@ def join_meet(meet_url):
         print("Navigateur fermé.")
 
 if __name__ == "__main__":
-    meet_link = "https://meet.google.com/mtv-mjhw-wjh"  
+    meet_link = input("Veuillez entrer le lien de la réunion Google Meet : ")
     join_meet(meet_link)
+
